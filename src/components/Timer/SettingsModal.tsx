@@ -65,7 +65,12 @@ export const SettingsModal = ({
             <Text variant="textRegular" color={currentTheme[colorByModeModal[TYPE_OF_COLORS.SECONDARY]]}>
               Dark mode
             </Text>
-            <Switch colors={colorByModeModal} currentTheme={currentTheme} onChange={setTheme} />
+            <Switch
+              checked={mode === THEME_MODE.DARK}
+              colors={colorByModeModal}
+              currentTheme={currentTheme}
+              onChange={setTheme}
+            />
           </Box>
           <Box display="flex" alignItems="center" justifyContent="space-between" py="1.375rem">
             <Text variant="textRegular" color={currentTheme[colorByModeModal[TYPE_OF_COLORS.SECONDARY]]}>
