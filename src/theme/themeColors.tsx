@@ -19,8 +19,8 @@ export const themeColors = {
       main900: 'hsla(208, 54%, 18%, 1)', //blue/900
     },
     otherColors: {
-      blackAlpha200: 'hsla(0, 0%, 0%, 0.24)'
-    }
+      blackAlpha200: 'hsla(0, 0%, 0%, 0.24)',
+    },
   },
   darkTheme: {
     focusColors: {
@@ -42,9 +42,9 @@ export const themeColors = {
       mainAlpha600: 'hsla(208, 100%, 65%, 0.62)', //blue Alpha/600
     },
     otherColors: {
-      blackAlpha200: 'hsla(0, 0%, 100%, 0.24)'
-    }
-  }
+      blackAlpha200: 'hsla(0, 0%, 100%, 0.24)',
+    },
+  },
 }
 
 export const themeColorNameToValue = {
@@ -58,13 +58,11 @@ export const themeColorNameToValue = {
   ...themeColors.darkTheme.longBreakColors,
 }
 
-export type ThemeColors = keyof (
-    & typeof themeColors.lightTheme.otherColors
-    & typeof themeColors.lightTheme.focusColors
-    & typeof themeColors.lightTheme.longBreakColors
-    & typeof themeColors.lightTheme.shortBreakColors
-    & typeof themeColors.darkTheme.otherColors
-    & typeof themeColors.darkTheme.focusColors
-    & typeof themeColors.darkTheme.longBreakColors
-    & typeof themeColors.darkTheme.shortBreakColors
-  )
+export type ThemeColors = keyof (typeof themeColors.lightTheme.otherColors &
+  typeof themeColors.lightTheme.focusColors &
+  typeof themeColors.lightTheme.longBreakColors &
+  typeof themeColors.lightTheme.shortBreakColors &
+  typeof themeColors.darkTheme.otherColors &
+  typeof themeColors.darkTheme.focusColors &
+  typeof themeColors.darkTheme.longBreakColors &
+  typeof themeColors.darkTheme.shortBreakColors)

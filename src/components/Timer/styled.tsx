@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import {Box} from "../../ui-components/Box";
+import { Box } from '../../ui-components/Box'
 
 export const StyledModal = styled(Box)`
   position: absolute;

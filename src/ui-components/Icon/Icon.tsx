@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeIcons, icons } from './icons'
 import { StyledIcon } from './styled'
-import {ThemeColors} from "../../theme/themeColors";
+import { ThemeColors } from '../../theme/themeColors'
 
 type IconProps = {
   icon: ThemeIcons

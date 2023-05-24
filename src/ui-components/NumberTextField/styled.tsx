@@ -1,15 +1,15 @@
 import styled from '@emotion/styled'
-import {TextField as TextFieldMui} from '@mui/material'
-import {Box} from "../Box";
+import { TextField as TextFieldMui } from '@mui/material'
+import { Box } from '../Box'
 
 export const StyledTextField = styled(TextFieldMui)`
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
-  input[type=number] {
-    -moz-appearance:textfield;
+  input[type='number'] {
+    -moz-appearance: textfield;
   }
 
   .MuiInputBase-input {
@@ -32,7 +32,7 @@ export const StyledTextFieldWrapper = styled(Box)`
   position: relative;
   height: 2.5rem;
   width: 6rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: ${({ theme }) => `1px solid ${theme.themeColors.otherColors.blackAlpha200}`};
 `
 
@@ -53,10 +53,10 @@ export const StyledTextFieldPlus = styled(Box)`
   justify-content: center;
   border-bottom: ${({ theme }) => `1px solid ${theme.themeColors.otherColors.blackAlpha200}`};
   cursor: pointer;
-  transition: opacity .3s linear;
+  transition: opacity 0.3s linear;
 
   &:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
 
   &:before {
@@ -77,10 +77,10 @@ export const StyledTextFieldMinus = styled(Box)`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: opacity .3s linear;
+  transition: opacity 0.3s linear;
 
   &:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
 
   &:after {
