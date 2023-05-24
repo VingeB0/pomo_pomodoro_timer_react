@@ -9,9 +9,9 @@ type ClockFaceProps = {
   color: string
 }
 
-const addZero = (n: number) => (n < 10 ? `0${n}` : n)
-const secondsToMinutes = (seconds: number) => Math.floor(seconds / 60)
-const restOfSeconds = (seconds: number) => seconds - secondsToMinutes(seconds) * 60
+const padWithLeadingZeros = (n: number) => (n < 10 ? `0${n}` : n)
+const transformSecondsToMinutes = (seconds: number) => Math.floor(seconds / 60)
+const calculateTimeLeft = (seconds: number) => seconds - transformSecondsToMinutes(seconds) * 60
 
 export const ClockFace: React.FC<ClockFaceProps> = ({ time, theme, color, isPlay }) => {
   return (
@@ -25,11 +25,11 @@ export const ClockFace: React.FC<ClockFaceProps> = ({ time, theme, color, isPlay
     >
       {isPlay ? (
         <Text variant="timerPaused" color={theme[color]}>
-          {addZero(secondsToMinutes(time))} <br /> {addZero(restOfSeconds(time))}
+          {padWithLeadingZeros(transformSecondsToMinutes(time))} <br /> {padWithLeadingZeros(calculateTimeLeft(time))}
         </Text>
       ) : (
         <Text variant="timerRunning" color={theme[color]}>
-          {addZero(secondsToMinutes(time))} <br /> {addZero(restOfSeconds(time))}
+          {padWithLeadingZeros(transformSecondsToMinutes(time))} <br /> {padWithLeadingZeros(calculateTimeLeft(time))}
         </Text>
       )}
     </Box>
