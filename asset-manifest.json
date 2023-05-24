@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/pomo_pomodoro_timer_react/static/js/main.f786aa8b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/pomo_pomodoro_timer_react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/brain.svg": "/pomo_pomodoro_timer_react/static/media/brain.a9e2935985e597d75e25ba8aeb446511.svg",
+    "static/media/gear.svg": "/pomo_pomodoro_timer_react/static/media/gear.41feb15ce9cf9093da216a9146ee5a22.svg",
+    "static/media/coffe.svg": "/pomo_pomodoro_timer_react/static/media/coffe.42464307343565722ddcaacd0717053f.svg",
+    "static/media/dots-three.svg": "/pomo_pomodoro_timer_react/static/media/dots-three.40c99933eca9876b1919238436ad7de4.svg",
+    "static/media/return.svg": "/pomo_pomodoro_timer_react/static/media/return.7e3c222f4f5750eceb88c9e0fb200822.svg",
+    "static/media/fast-forward.svg": "/pomo_pomodoro_timer_react/static/media/fast-forward.6d2692095a05bb0fb50da08ca6d97791.svg",
+    "static/media/close.svg": "/pomo_pomodoro_timer_react/static/media/close.8aaf5ae2914024a2c5d945b1119ca5e6.svg",
+    "static/media/bar.svg": "/pomo_pomodoro_timer_react/static/media/bar.6371ab94d06fbb638430791de0cbb3eb.svg",
+    "static/media/arrow-right.svg": "/pomo_pomodoro_timer_react/static/media/arrow-right.f625b4dc6e94e5928c87ed9a51e6a5c8.svg",
+    "static/media/pause.svg": "/pomo_pomodoro_timer_react/static/media/pause.45b2ff6be8225998b43212f5ad4451f4.svg",
+    "static/media/play.svg": "/pomo_pomodoro_timer_react/static/media/play.9ce6bd77e622fecc31748948921d4970.svg",
+    "index.html": "/pomo_pomodoro_timer_react/index.html",
+    "main.f786aa8b.js.map": "/pomo_pomodoro_timer_react/static/js/main.f786aa8b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/pomo_pomodoro_timer_react/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f786aa8b.js"
+  ]
+}
