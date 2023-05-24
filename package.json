@@ -1,4 +1,5 @@
 {
+  "homepage": "https://VingeB0.github.io/pomo_pomodoro_timer_react",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -20,12 +21,15 @@
     "@types/node": "16.18.32",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-no-only-tests": "^3.1.0",
-    "prettier": "^2.8.8",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-no-only-tests": "3.1.0",
+    "gh-pages": "5.0.0",
+    "prettier": "2.8.8",
     "typescript": "4.9.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node_modules/.bin/react-scripts start",
     "build": "node_modules/.bin/react-scripts build",
     "test": "node_modules/.bin/react-scripts test",
