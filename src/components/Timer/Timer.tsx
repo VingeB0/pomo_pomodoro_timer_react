@@ -9,7 +9,7 @@ import {colorToStateChip, colorToStateClock, colorToStateBg, TYPE_OF_COLORS} fro
 import {THEME_STATE} from "../../theme/themes";
 import {SettingsModal} from "./SettingsModal";
 import {ClockFace} from "./ClockFace";
-import {DarkTheme, LightTheme, Themes} from "../../theme/themeProvider";
+import {Themes} from "../../theme/themeProvider";
 
 const iconToState: Record<THEME_STATE, ThemeIcons> = {
     [THEME_STATE.FOCUS]: 'brain',
