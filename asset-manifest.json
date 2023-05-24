@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/pomo_pomodoro_timer_react/static/js/main.f786aa8b.js",
+    "main.js": "/pomo_pomodoro_timer_react/static/js/main.ce15dde6.js",
     "static/js/787.28cb0dcd.chunk.js": "/pomo_pomodoro_timer_react/static/js/787.28cb0dcd.chunk.js",
     "static/media/brain.svg": "/pomo_pomodoro_timer_react/static/media/brain.a9e2935985e597d75e25ba8aeb446511.svg",
     "static/media/gear.svg": "/pomo_pomodoro_timer_react/static/media/gear.41feb15ce9cf9093da216a9146ee5a22.svg",
@@ -14,10 +14,10 @@
     "static/media/pause.svg": "/pomo_pomodoro_timer_react/static/media/pause.45b2ff6be8225998b43212f5ad4451f4.svg",
     "static/media/play.svg": "/pomo_pomodoro_timer_react/static/media/play.9ce6bd77e622fecc31748948921d4970.svg",
     "index.html": "/pomo_pomodoro_timer_react/index.html",
-    "main.f786aa8b.js.map": "/pomo_pomodoro_timer_react/static/js/main.f786aa8b.js.map",
+    "main.ce15dde6.js.map": "/pomo_pomodoro_timer_react/static/js/main.ce15dde6.js.map",
     "787.28cb0dcd.chunk.js.map": "/pomo_pomodoro_timer_react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f786aa8b.js"
+    "static/js/main.ce15dde6.js"
   ]
 }
