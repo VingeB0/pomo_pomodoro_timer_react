@@ -23,7 +23,7 @@ type SettingsModalProps = {
   currentTheme: Record<string, any>
 }
 
-export const SettingsModal: React.FC<SettingsModalProps> = ({
+export const SettingsModal = ({
   open,
   setOpen,
   setTheme,
@@ -33,7 +33,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   setLockedState,
   state,
   lockedState,
-}) => {
+}: SettingsModalProps) => {
   const theme = useTheme()
   const mode = theme.palette.mode
   const colorByModeModal = colorToStateModal[mode]

@@ -13,7 +13,7 @@ type ControlsProps = {
   disabled: boolean
 }
 
-export const Control: React.FC<ControlsProps> = ({ nextStep, setPlay, play, currentTheme, setOpen, disabled }) => {
+export const Control = ({ nextStep, setPlay, play, currentTheme, setOpen, disabled }: ControlsProps) => {
   const theme = useTheme()
   const mode = theme.palette.mode
   const colorByModePlay = colorToStatePlay[mode]

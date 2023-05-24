@@ -10,7 +10,7 @@ type IconProps = {
   color?: ThemeColors
 }
 
-export const Icon: React.FC<IconProps> = ({ color = 'main50', icon, height = '2rem', width = '2rem', ...props }) => {
+export const Icon = ({ color = 'main50', icon, height = '2rem', width = '2rem', ...props }: IconProps) => {
   const IconType = icons[icon]
 
   return (

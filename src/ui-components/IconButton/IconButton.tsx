@@ -12,14 +12,14 @@ type IconButtonProps = Omit<IconButtonMUIProps, 'size'> & {
   secondaryColor: ThemeColors
 }
 
-export const IconButton: React.FC<IconButtonProps> = ({
+export const IconButton = ({
   iconSize = '1.8rem',
   icon,
   size = 'lg',
   primaryColor,
   secondaryColor,
   ...props
-}) => {
+}: IconButtonProps) => {
   return (
     <IconButtonMUI
       {...props}

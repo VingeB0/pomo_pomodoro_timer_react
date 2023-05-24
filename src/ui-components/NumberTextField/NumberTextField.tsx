@@ -14,7 +14,7 @@ type TextFieldMuiProps = TextFieldProps & {
   time?: number
 }
 
-export const NumberTextField: React.FC<TextFieldMuiProps> = ({ color, getValue = () => {}, time }) => {
+export const NumberTextField = ({ color, getValue = () => {}, time }: TextFieldMuiProps) => {
   const [value, setValue] = useState<number>(time || 0)
 
   const handleGetValue = (value: string | number) =>

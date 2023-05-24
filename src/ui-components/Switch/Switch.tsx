@@ -9,6 +9,6 @@ type SwitchMuiProps = SwitchProps & {
   currentTheme: Record<string, any>
 }
 
-export const Switch: React.FC<SwitchMuiProps> = ({ colors, currentTheme, ...props }) => {
+export const Switch = ({ colors, currentTheme, ...props }: SwitchMuiProps) => {
   return <StyledSwitch colors={colors} currentTheme={currentTheme} {...props} />
 }

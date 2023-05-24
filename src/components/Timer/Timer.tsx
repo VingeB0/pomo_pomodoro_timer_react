@@ -32,7 +32,7 @@ type TimerProps = {
 export type timeType = Record<THEME_STATE, number>
 export type lockedStateType = THEME_STATE | string
 
-export const Timer: React.FC<TimerProps> = ({ setTheme, nextStep, state }) => {
+export const Timer = ({ setTheme, nextStep, state }: TimerProps) => {
   const [lockedState, setLockedState] = useState<lockedStateType>('')
 
   const theme = useTheme()

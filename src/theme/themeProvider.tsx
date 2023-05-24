@@ -50,7 +50,7 @@ interface ThemeProviderProps {
   theme?: MUITheme
 }
 
-export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children, theme = lightTheme }) => {
+export const ThemeProvider = ({ children, theme = lightTheme }: ThemeProviderProps) => {
   return (
     <MaterialThemeProvider theme={theme}>
       <GlobalStyles />

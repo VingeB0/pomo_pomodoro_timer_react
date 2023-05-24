@@ -11,7 +11,7 @@ type ChipMuiProps = Omit<ChipProps, 'icon'> & {
   iconColor: ThemeColors
 }
 
-export const Chip: React.FC<ChipMuiProps> = ({
+export const Chip = ({
   iconColor,
   primaryColor,
   secondaryColor,
@@ -19,7 +19,7 @@ export const Chip: React.FC<ChipMuiProps> = ({
   children,
   variant = 'outlined',
   ...props
-}) => {
+}: ChipMuiProps) => {
   return (
     <ChipMui
       {...props}

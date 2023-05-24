@@ -6,7 +6,7 @@ type TypographyMuiProps = Omit<TypographyProps, 'variant'> & {
   variant: ThemeTypography
 }
 
-export const Text: React.FC<TypographyMuiProps> = ({ children, variant, ...props }) => {
+export const Text = ({ children, variant, ...props }: TypographyMuiProps) => {
   return (
     <TypographyMui variant={variant} {...props}>
       {children}
